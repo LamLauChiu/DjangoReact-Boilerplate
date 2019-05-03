@@ -3,6 +3,7 @@ import cv2
 import imutils
 
 # 讀取照片圖檔
+# sources :https://blog.gtwang.org/programming/python-opencv-dlib-face-detection-implementation-tutorial/
 img = cv2.imread('/Users/Ivan.lam/Projects/DjangoReact-Boilerplate/project/project/human-20180303-01-1024x683.jpg')
 
 # 縮小圖片
