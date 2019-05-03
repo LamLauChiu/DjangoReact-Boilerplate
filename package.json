@@ -1,35 +1,38 @@
 {
-  "name": "DjangoReact-Boilerplate",
+  "name": "django-drf-react-quickstart",
   "version": "1.0.0",
-  "description": "",
+  "description": "Django REST framework / React quickstart",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js",
-    "build": "webpack --mode production ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js"
+    "flush": "pipenv run python ./project/manage.py flush --no-input",
+    "e2e": "cypress open --project ./project/frontend/",
+    "dev": "webpack --mode development ./project/frontend/src/index.js --output ./project/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./project/frontend/src/index.js --output ./project/frontend/static/frontend/main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LamLauChiu/DjangoReact-Boilerplate.git"
+    "url": "git+https://github.com/valentinogagliardi/django-drf-react-quickstart.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LamLauChiu/DjangoReact-Boilerplate/issues"
+    "url": "https://github.com/valentinogagliardi/django-drf-react-quickstart/issues"
   },
-  "homepage": "https://github.com/LamLauChiu/DjangoReact-Boilerplate#readme",
+  "homepage": "https://github.com/valentinogagliardi/django-drf-react-quickstart#readme",
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1"
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cypress": "^3.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "weak-key": "^1.0.0",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
   },
-  "dependencies": {
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  }
+  "dependencies": {}
 }
