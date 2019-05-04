@@ -34,8 +34,4 @@ The following repo is no longer maintained and should be taken only as a loose g
 * React routing
 * Production
 
-## Meta
-
-Valentino Gagliardi - [valentinog.com](https://www.valentinog.com) - valentino@valentinog.com
-
 
