@@ -3,6 +3,7 @@ Django REST framework / React quickstart
 
 The following repo is no longer maintained and should be taken only as a loose guideline for structuring your Django/React project. Please check out [django-rest-react-pycon](https://github.com/valentinogagliardi/django-rest-react-pycon) for a more recent version.
 
+The source of code come from Copyright (c) 2018 Valentino Gagliardi
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
 
 ![Django REST framework React](https://www.valentinog.com/blog/wp-content/uploads/2018/01/django-rest-framework-react.png)
